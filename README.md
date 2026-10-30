@@ -9,10 +9,18 @@ Keyboard-first spelling navigation for Obsidian Desktop. The plugin uses Electro
 
 The first correction is selected automatically, so press Return to accept it or use the arrow keys to choose another option. The menu also includes actions to add a word to the system dictionary or ignore it until Obsidian restarts.
 
+## Install manually
+
+Run `npm ci && npm run build`, then copy `manifest.json` and `main.js` into `<vault>/.obsidian/plugins/native-spellcheck-navigation/`. Enable the plugin under **Settings → Community plugins**. This plugin requires Obsidian Desktop and Electron's spellchecker.
+
 ## Development
 
 ```sh
-npm install
+npm ci
 npm test
 npm run build
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
