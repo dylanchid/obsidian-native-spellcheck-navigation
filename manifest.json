@@ -1,0 +1,9 @@
+{
+  "id": "native-spellcheck-navigation",
+  "name": "Native Spellcheck Navigation",
+  "version": "0.1.3",
+  "minAppVersion": "1.5.0",
+  "description": "Jump to spelling mistakes and correct them from the keyboard using Electron's native spellchecker.",
+  "author": "Dylan Chidambaram",
+  "isDesktopOnly": true
+}
